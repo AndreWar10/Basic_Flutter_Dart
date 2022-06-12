@@ -1,4 +1,5 @@
 import 'package:flutter/cupertino.dart';
+import 'package:projeto01/services/prefs_service.dart';
 
 class LoginController {
 
@@ -20,7 +21,12 @@ class LoginController {
     await Future.delayed(Duration(seconds: 2));
     inLoader.value = false;
 
-    return _login == 'admin' && _pass == '123';
+    //caso login bem sucedido ele salva o user
+    if(_login == 'admin' && _pass == '123') {
+      PrefsService.save(_login!);
+      return true;
+    }
+    return false;
   
   }
 }
