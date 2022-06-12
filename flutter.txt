@@ -1,0 +1,66 @@
+Framework para criação de apps nativos para Android, IOS, Web e Desktop (Apps bonitos)
+Projeto Opensource, tem grupo no discord oficial
+FlutterDev {site oficial}
+Flutterando comunidade BR
+
+Aplicativos são criados por meio de uma hierarquia de composição de widgets
+Widgets - Componente que pode ser composto por mais Widgets
+
+1- Instalação Framework SDK:
+https://flutter.dev/docs/get-started/install
+
+2- IDE:
+Android Studio / Xcode / Visual Studio
+
+3- Instalação Emulador:
+https://developer.android.com/studio/run/emulator
+
+adb connect 192.168.100.3	
+
+..
+
+flutter create <project-name>
+cd .. <project-name>
+flutter run
+
+..
+flutter outline
+..
+
+nome de arquivos minusculos
+
+stless / stfull ja cria a classe com estrutura pronta
+
+hot reload = ctrl + f5
+
+dart analysis
+
+digital // segurança de campos // 
+
+.. DEIVID ..
+
+flutter pub -h -> comandos dos pacotes flutter 
+flutter create -> criar novo projeto
+flutter devices -> dispositivos disponiveis para rodar o projeto
+flutter run -d <nome dispositivo>
+flutter analyze -> lint do projeto, se projeto está de acordo
+flutter build (apk/ios/..) --release/debug  -> gera uma apk
+flutter channel -> <ficar no stable>
+flutter clean -> limpar uma série de cash's, pra tirar bugs 
+flutter pub get-> vai no pub.dev nosso repositório para buscar as dependencias e deixar a aplicação pronta para ser executada(recomendado depois do clean)
+flutter format -> formatar o código com formatação padrão
+flutter test -> rodar testes 
+
+ctrl + mouse -> indformações classes
+ctrl + space -> sugestao paramtros
+ctrl + shift + space (definição parametros)
+
+ctrl + . (Wrap with ..)
+shift + alt + F
+
+separacao de arquivos jfdhnsk_jksdfkd (convenção)
+..
+
+PageView -> 
+PageControleer (Controle de Scrolls, -> )
+  
